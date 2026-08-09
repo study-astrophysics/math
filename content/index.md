@@ -1,2 +1,5 @@
 
-In this page, I will do the math.
+# Infinite Series, Power Series
+
+[[The Geometric Series]]
+
