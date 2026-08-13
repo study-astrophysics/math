@@ -5,7 +5,7 @@
 - Sequence: a set of quantities
 - Series: a sum of quantities
 
-
+---
 ## Form
 
 In general, an infinite series has a form:
@@ -13,6 +13,7 @@ In general, an infinite series has a form:
 
 $$ a_1 + a_2 + a_3 + \cdots + a_n + \cdots \ , $$
 
+---
 ## Using a summation sign $\sum$
 
 For example, the sum of $n^2$ from $n=1$ to $\infty$:
@@ -20,7 +21,7 @@ For example, the sum of $n^2$ from $n=1$ to $\infty$:
 
 $$ 1^2 + 2^2 + 3^2 + 4^2 + \cdots = \sum^{\infty}_{n=1}n^2 $$
  
-
+---
 ### Example: find $\lim_{n\to\infty} (\frac{1}{n})^{1/n}$.
 
 Put the log first,
