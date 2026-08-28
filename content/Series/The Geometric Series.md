@@ -20,5 +20,4 @@ $$
 $$
 S = \lim_{n\to\infty} S_n = \frac{a}{1-r}, \quad \mathrm{if\ \  |r|<1 \ \ (convergent). }
 $$
-
-
+ 

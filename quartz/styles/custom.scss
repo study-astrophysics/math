@@ -1,3 +1,17 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// The bundled theme (@quartz-themes/default) forces the site body font onto
+// KaTeX's rendered output (`.katex > .katex-html`, `.katex-display > .katex`).
+// Glyphs that carry their own class keep their KaTeX face, but anything that
+// relies on inheritance falls back to the body font — including the private-use
+// codepoints KaTeX composes relations from, e.g. the slash in \neq (U+E020),
+// which has no counterpart in Source Sans Pro and renders as a blank box.
+// Restore KaTeX's own stack so those glyphs resolve.
+.katex,
+.katex > .katex-html,
+.katex-display > .katex,
+.katex-display > .katex > .katex-html {
+  font-family: KaTeX_Main, "Times New Roman", serif !important;
+}
